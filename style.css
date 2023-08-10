@@ -9,7 +9,22 @@ input{
     text-align: center;
 }
 button{
+    background-color: #5397b3;
+    color: #15495e;
+    border-color: #15495e;
     border-radius: 30px;
     width: 180px;
     font-size: large;
+}
+h1 {
+    color: #15495e;
+}
+h2 {
+    color: #15495e;
+}
+h3 {
+    color: #15495e;
+}
+h4 {
+    color: #15495e;
 }
