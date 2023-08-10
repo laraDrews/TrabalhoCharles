@@ -1,0 +1,9 @@
+body{
+    background-image: url("PrintVisualG");
+    text-align: center
+}
+button{
+    border-radius: 30px;
+    width: 180px;
+    font-size: large;
+    }
