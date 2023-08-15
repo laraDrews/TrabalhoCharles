@@ -10,10 +10,52 @@
 <body>
     <button onclick= "novaPig()">Página Inicial</button><br>
     <img src="VisualG.png">
+    <textarea id="textos">
+        Algoritmo "55"
+Var
+servico: caracter
+
+Inicio
+escreval("A) Falar com a atendente")
+escreval("B) Falar com o RH")
+escreval("C) Falar com o gerente")
+escreval("D) Sair")
+escreval("Digite o serviço desejado:")
+leia(servico)
+limpatela()
+
+escolha servico
+caso "A"
+escreva("Olá. Agora você está no serviço de atendente. =) ")
+
+caso "B"
+escreva("Olá. Bem vindo (a) ao RH. :)")
+
+caso "C"
+escreva("Olá. Você está falando com a gerente. :]")
+
+caso "D"
+escreva("Ok. Menu cancelado. =/")
+
+fimescolha
+Fimalgoritmo
+    </textarea>
+    <div>
+        <button id="copiar">Copiar</button>
+    </div>
 </body>
 </html>
 <script>
     function novaPig(){
         window.location.href="index.html"
     }
+    const textInput = document.getElementById('textos');
+    const copyButton = document.getElementById('copiar');
+
+    copyButton.addEventListener('click', ()=> {
+      textInput.select();
+      document.execCommand('copy');
+    });
+
+
 </script>
